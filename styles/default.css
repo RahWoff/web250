@@ -3,8 +3,8 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   font-family: Bodoni;
-  color: #E3D6C3; /* Bone */
-  background-color:  #16166B /* Federal Blue */
+  color: #16166B; /* Federal Blue */
+  background-color: #E3D6C3 /* Bone */
 }
 
 header {
@@ -28,40 +28,38 @@ h2 {
   text-align: center;
 }
 
+.nav-style a:hover {
+ text-decoration:none;
+ color: #16166B;
+}
+
 .nav-style a {
   text-decoration: none;
-  color: #E3D6C3; /* Bone */
+  color:  #E6E6FA; /*Lavender*/
 }
 
-.nav-style a:hover {
-  text-decoration: underline;
-}
-
-.nav-style a:visited {
+.href-intro a:link {
   text-decoration: none;
-  color: #E6E6FA; /* Lavender */
-}
-
-.href-intro a {
-  text-decoration: none;
-  color: #E3D6C3; /* Bone */
-}
-
-.href-intro a:hover {
-  text-decoration: underline;
+  color:#E6E6FA; /* Bone */
 }
 
 .href-intro a:visited {
   text-decoration: none;
-  color: #E3D6C3; /* Bone */
+  color: #E6E6FA; /* Bone */
 }
+
+.href-intro a:hover {
+  text-decoration: underline;
+  color:#16166B; 
+}
+
 .subheading {
 	text-align: center;
 	font-family: Segoe UI;
 }
 
 #font-boxes {	  
-  color: #E3D6C3; /* Bone */
+  color: #16166B; /*Federal Blue*/
   display: grid;
   grid-template-columns: auto auto;
 }
