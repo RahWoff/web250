@@ -1,10 +1,10 @@
 body {
-  /* https://coolors.co/16166b-e3d6c3-e6e6fa */
+  /* https://coolors.co/16166b-e3d6c3-f13535 */
   margin-left: 100px;
   margin-right: 100px;
   font-family: Bodoni;
-  color: #16166B; /* Federal Blue */
-  background-color: #E3D6C3 /* Bone */
+  color: #EBE9E9; /* Platinum */
+  background-color: #3581B8/* Steel Blue */
 }
 
 header {
@@ -30,27 +30,28 @@ h2 {
 
 .nav-style a:hover {
  text-decoration:none;
- color: #16166B;
+ color: #f13535; /*Vermillion*/
 }
 
 .nav-style a {
+  font-size: 20px;
   text-decoration: none;
-  color:  #E6E6FA; /*Lavender*/
+  color: #16166B; /*Federal Blue*/
 }
 
 .href-intro a:link {
   text-decoration: none;
-  color:#E6E6FA; /* Bone */
+  color:#EBE9E9; /*Platinum*/
 }
 
 .href-intro a:visited {
   text-decoration: none;
-  color: #E6E6FA; /* Bone */
+  color: #16166B; /*Federal Blue*/
 }
 
 .href-intro a:hover {
   text-decoration: underline;
-  color:#16166B; 
+  color: #f13535; /*Vermillion*/
 }
 
 .subheading {
@@ -68,14 +69,14 @@ h2 {
   text-align: center;
   font-family: Bodoni;
   padding: 40px;
-  border: 1px solid #E6E6FA; /* Lavender */
+  border: 1px solid #EBE9E9; /*Platinum*/
 }
 
 .segoe {
   text-align: center;
   font-family: Segoe UI;
   padding: 40px;
-  border: 1px solid #E6E6FA; /* Lavender */
+  border: 1px solid #EBE9E9; /*Platinum*/
 }
 
 p {
