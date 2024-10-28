@@ -30,27 +30,27 @@ h2 {
 
 .nav-style a:hover {
  text-decoration:none;
- color: #16166B;
+ color: #E6E6FA;/*Lavender*/
 }
 
 .nav-style a {
   text-decoration: none;
-  color:  #E6E6FA; /*Lavender*/
+  color: #16166B; /* Federal Blue */
 }
 
 .href-intro a:link {
   text-decoration: none;
-  color:#E6E6FA; /* Bone */
+  color:#16166B; /* Federal Blue */
 }
 
 .href-intro a:visited {
   text-decoration: none;
-  color: #E6E6FA; /* Bone */
+  color: #E6E6FA; /*Lavender*/
 }
 
 .href-intro a:hover {
   text-decoration: underline;
-  color:#16166B; 
+  color:#E6E6FA; /*Lavender*/ 
 }
 
 .subheading {
