@@ -1,11 +1,11 @@
 body {
   /* https://coolors.co/16166b-e3d6c3-e6e6fa */
-  margin-left: 100px;
+  margin-left: 100px;   
   margin-right: 100px;
   font-family: Arial, Verdana, sans-serif;
   font-size: 18px;
   color: #043b14; /*Dark Green*/
-  background-color: #bd9b67 /* Bone */
+  background-color: #bd9b67 /* Dark Khaki*/
 }
 
 header {
@@ -35,19 +35,19 @@ h2 {
   color: #043b14; /*Dark Green*/
 }
 
-.href-intro a:link {
+nav a:link {
   text-decoration: none;
   color:#043b14; /*Dark Green*/
 }
 
 .href-intro a:visited {
   text-decoration: none;
-  color: #E6E6FA; /*Lavender*/
+  color:  #043b14; /*Dark Green*/
 }
 
 .href-intro a:hover {
   text-decoration: underline;
-  color:#043b14; /*Dark Green*/
+  color:#E6E6FA; /*Lavender*/
 }
 
 .subheading {
@@ -87,6 +87,10 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 15px;
+}
+
+ul {
+  line-height: 1.8em;
 }
 
 footer {
